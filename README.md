@@ -33,10 +33,15 @@ Flutter ile geliştirilmiş, modern kullanıcı arayüzüne (UI) sahip, kategori
 
 ##Ekran Görselleri
 1.Ana Ekran
+
 <img width="1080" height="2400" alt="1" src="https://github.com/user-attachments/assets/d36529b3-d83c-4be6-a023-b1bf758c8b15" />
+
 2.Ürün Detay 
+
 <img width="1080" height="2400" alt="2" src="https://github.com/user-attachments/assets/480753d7-11c3-4ef2-9d2d-e3dfed1d0123" />
+
 3.Tür Seçimine Göre Sıralama
+
 <img width="1080" height="2400" alt="3" src="https://github.com/user-attachments/assets/825e669a-5a92-4f81-9929-5c0e175c0562" />
 4.Filtreleme 
 <img width="1080" height="2400" alt="4" src="https://github.com/user-attachments/assets/4caa3386-187f-498c-a65e-7eb7c436cf0b" />
