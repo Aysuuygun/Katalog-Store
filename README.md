@@ -28,9 +28,11 @@ Flutter ile geliştirilmiş, modern kullanıcı arayüzüne (UI) sahip, kategori
 * **Framework:** Flutter (Dart)
 * **IDE / Geliştirme Ortamı:** Visual Studio Code & Android Studio
 * **Hedef Platform:** Android (Emulator / Fiziksel Cihaz) & Web
-* * **Sürümler:** 
+* **Sürümler:** 
 Flutter Sürümü: 3.47.0 
+
 Dart Sürümü: 3.13.0
+
 DevTools Sürümü: 2.60.0
 
 ---
