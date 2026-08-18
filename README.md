@@ -1,4 +1,4 @@
-# Mini E-Ticaret Katalog Uygulaması
+# Katalog Store
 
 Flutter ile geliştirilmiş, modern kullanıcı arayüzüne (UI) sahip, kategori filtreleme, ürün detayları ve sepet yönetimi sunan mobil e-ticaret uygulaması.
 
