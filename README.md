@@ -18,7 +18,7 @@ Flutter ile geliştirilmiş, modern kullanıcı arayüzüne (UI) sahip, kategori
   * Tek tıkla sepete ve favorilere ekleme butonları.
 * **Sepet & Sipariş Yönetimi:**
   * Ürün adedi artırma / azaltma ve dinamik ara toplam hesabı.
-  * İndirim kuponu uygulama alanı (`INDIRIM10` ile %10 indirim).
+  * İndirim kuponu uygulama alanı (`INDIRIM10` ile %10 indirim,`FLUTTER20` ile %20 indirim ).
   * Boş sepet durum kontrolü ve animasyonlu sipariş onay / başarı ekranı.
 
 ---
