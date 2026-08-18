@@ -31,7 +31,7 @@ Flutter ile geliştirilmiş, modern kullanıcı arayüzüne (UI) sahip, kategori
 
 ---
 
-##Ekran Görselleri
+## Ekran Görüntüleri
 
 
 1.Ana Ekran
