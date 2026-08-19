@@ -74,21 +74,63 @@ Flutter ile geliştirilmiş, modern kullanıcı arayüzüne (UI) sahip, kategori
 
 <img width="220" height="440" alt="9" src="https://github.com/user-attachments/assets/1163a297-a786-4699-bc6a-1b210f9465ab" />
 
-##  Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma Rehberi
 
-Projeyi yerel ortamınızda çalıştırmak için:
+Projeyi yerel geliştirme ortamınızda derleyip çalıştırmak için aşağıdaki adımları sırasıyla uygulayabilirsiniz.
+
+---
+
+### Ön Gereksinimler
+* [Flutter SDK](https://docs.flutter.dev/get-started/install) (v3.47.0 veya üzeri)
+* [Android Studio](https://developer.android.com/studio) (Android SDK & Emulator kurulu olmalıdır) veya [VS Code](https://code.visualstudio.com/)
+* Google Chrome (Web üzerinden çalıştırmak için)
+
+---
+### Adım 1: Projeyi Klonlayın ve Klasöre Geçin
+Terminal veya PowerShell üzerinden projeyi indirin ve proje dizinine girin:
 
 ```bash
-# Repoyu klonlayın
-git clone [https://github.com/Aysuuygun/flutter-mini-katalog.git](https://github.com/Aysuuygun/flutter-mini-katalog.git)
+git clone [https://github.com/Aysuuygun/Katalog-Store.git](https://github.com/Aysuuygun/Katalog-Store.git)
+cd Katalog-Store
+```
 
-# Proje dizinine gidin
-cd flutter-mini-katalog
+### Adım 2: Bağımlılıkları (Paketleri) Yükleyin
+Gerekli kütüphaneleri projeye dahil etmek için:
 
-# Bağımlılıkları yükleyin
+```bash
 flutter pub get
+```
 
-# Uygulamayı başlatın
+### Adım 3: Emülatörü / Test Cihazını Başlatın
+**Seçenek A (Terminal ile):**
+
+```bash
+# Mevcut emülatörleri listeleyin
+flutter emulators
+
+# Sanal cihazı başlatın (Örn: Pixel_7)
+flutter emulators --launch <emulator_id>
+```
+
+**Seçenek B (VS Code Arayüzü ile):**
+VS Code'un sağ alt köşesindeki cihaz seçiciye (No Device veya cihaz adı yazar) tıklayarak açılan listeden Android emülatörünü seçin.
+
+### Adım 4: Uygulamayı Çalıştırın (Android)
+Emülatör açıldıktan sonra uygulamayı derleyip başlatın:
+
+```bash
+# Otomatik algılanan aktif cihazda başlatmak için:
 flutter run
 
+# Veya cihaz ID belirterek başlatmak için:
+flutter devices
+flutter run -d <cihaz_id>
+```
+
+### Adım 5: Alternatif Çalıştırma Yolu (Web / Chrome)
+Emülatör kurmadan veya açmadan uygulamayı doğrudan web tarayıcısında hızlıca çalıştırmak için:
+
+```bash
+flutter run -d chrome
+```
 
